@@ -10,12 +10,11 @@ English to Hebrew, (2) an unsupervised method for creating a transliteration dat
 manually labeled data, and (3) an efficient way to identify and link medical entities in the Hebrew corpus to
 UMLS concepts, by producing a high-recall list of candidate medical terms in the corpus, and then filtering the
 candidates to relevant medical terms.    
-Results. We carry out experiments on 3 disease-specific communities: diabetes, multiple sclerosis, and depression. MDTEL tagging and normalizing on Camoni posts achieved 99% accuracy, 92% recall, and 87% precision.
+Results. We carry out experiments on 3 disease-specific communities, diabetes, multiple sclerosis, and depression. MDTEL tagging and normalizing on Camoni posts achieved 99% accuracy, 92% recall, and 87% precision.
 When tagging and normalizing terms in queries from the Camoni search logs, UMLS-normalized queries
 improved search results in 46% of the cases.    
 Conclusions. Cross-lingual UMLS entity linking from Hebrew is possible and improves search performance
-across communities. Annotated datasets, annotation guidelines, and code are made available online (https://
-github.com/yonatanbitton/mdtel).
+across communities. Annotated datasets, annotation guidelines, and code are made available online.
 slides: 
 url_pdf: ""
 publication_types:
