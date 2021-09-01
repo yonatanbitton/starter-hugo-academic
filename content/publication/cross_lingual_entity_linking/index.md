@@ -21,7 +21,7 @@ url_source: "https://academic.oup.com/jamia/article/27/10/1585/5903800"
 url_video: ""
 title: Cross lingual Unified Medical Language System entity linking in online health communities
 doi: ""
-featured: false
+featured: true
 tags: []
 projects:
   - cross_lingual_entity_linking
