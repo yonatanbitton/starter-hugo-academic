@@ -1,55 +1,59 @@
 ---
-abstract: 
-Objective. In Hebrew online health communities, participants commonly write medical terms that appear as
-transliterated forms of a source term in English. Such transliterations introduce high variability in text and challenge text-analytics methods. To reduce their variability, medical terms must be normalized, such as linking
-them to Unified Medical Language System (UMLS) concepts. We present a method to identify both transliterated and translated Hebrew medical terms and link them with UMLS entities.    
-Materials and Methods. We investigate the effect of linking terms in Camoni, a popular Israeli online health
-community in Hebrew. Our method, MDTEL (Medical Deep Transliteration Entity Linking), includes (1) an
-attention-based recurrent neural network encoder-decoder to transliterate words and mapping UMLS from
-English to Hebrew, (2) an unsupervised method for creating a transliteration dataset in any language without
-manually labeled data, and (3) an efficient way to identify and link medical entities in the Hebrew corpus to
-UMLS concepts, by producing a high-recall list of candidate medical terms in the corpus, and then filtering the
-candidates to relevant medical terms.    
-Results. We carry out experiments on 3 disease-specific communities, diabetes, multiple sclerosis, and depression. MDTEL tagging and normalizing on Camoni posts achieved 99% accuracy, 92% recall, and 87% precision.
-When tagging and normalizing terms in queries from the Camoni search logs, UMLS-normalized queries
-improved search results in 46% of the cases.    
-Conclusions. Cross-lingual UMLS entity linking from Hebrew is possible and improves search performance
-across communities. Annotated datasets, annotation guidelines, and code are made available online.
-slides: 
+abstract: Recent works have shown that supervised models often exploit data
+  artifacts to achieve good test scores while their performance severely
+  degrades on samples outside their training distribution. Contrast sets
+  (Gardneret al., 2020) quantify this phenomenon by perturbing test samples in a
+  minimal way such that the output label is modified. While most contrast sets
+  were created manually, requiring intensive annotation effort, we present a
+  novel method which leverages rich semantic input representation to
+  automatically generate contrast sets for the visual question answering task.
+  Our method computes the answer of perturbed questions, thus vastly reducing
+  annotation cost and enabling thorough evaluation of models' performance on
+  various semantic aspects (e.g., spatial or relational reasoning). We
+  demonstrate the effectiveness of our approach on the GQA dataset and its
+  semantic scene graph image representation. We find that, despite GQA's
+  compositionality and carefully balanced label distribution, two
+  high-performing models drop 13-17% in accuracy compared to the original test
+  set. Finally, we show that our automatic perturbation can be applied to the
+  training set to mitigate the degradation in performance, opening the door to
+  more robust models.
+slides: naacl_contrast_sets
 url_pdf: ""
 publication_types:
-  - "2"
+  - "1"
 authors:
   - admin
   - Yonatan Bitton
-  - Raphael Cohen
-  - Tamar Schifter
-  - Eitan Bachmat
+  - Gabriel Stanovsky
+  - Roy Schwartz
   - Michael Elhadad
-  - Noemie Elhadad
 author_notes: []
-publication: In Hebrew online health communities, participants commonly write medical terms that appear as
-transliterated forms of a source term in English. Such transliterations introduce high variability in text and challenge text-analytics methods. To reduce their variability, medical terms must be normalized, such as linking
-them to Unified Medical Language System (UMLS) concepts. We present a method to identify both transliterated and translated Hebrew medical terms and link them with UMLS entities.
+publication: In Proceedings of the 2021 Conference of the North American Chapter of the Association for Computational Linguistics (NAACL 2021)
+summary: We present a novel method which leverages rich semantic input
+  representation to automatically generate contrast sets for the visual question
+  answering task. Our method computes the answer of perturbed questions, thus
+  vastly reducing annotation cost and enabling thorough evaluation of models'
+  performance on various semantic aspects (e.g., spatial or relational
+  reasoning)
 url_dataset: ""
 url_project: ""
-publication_short: In *JAMIA 2020*
+publication_short: In *NAACL 2021*
 url_source: ""
 url_video: ""
-title: Cross-lingual Unified Medical Language System entity linking in online health communities
+title: Automatic Generation of Contrast Sets from Scene Graphs
 doi: ""
-featured: false
+featured: true
 tags: []
 projects:
-  - cross_lingual_entity_linking
+  - naacl_contrast_sets
 image:
   caption: ""
   focal_point: ""
   preview_only: false
-  filename: ""
+  filename: fig1_naal_long.png
 date: 2021-03-17T16:17:07.654Z
 url_slides: ""
-publishDate: 2020-09-10T16:17:07.654Z
-url_poster: ""
-url_code: "https://github.com/yonatanbitton/mdtel"
+publishDate: 2021-03-17T16:17:07.654Z
+url_poster: "publication/contrast_sets/contrast_sets_poster.pdf"
+url_code: "https://github.com/yonatanbitton/automatic_generation_of_contrast_sets_from_scene_graphs"
 ---
