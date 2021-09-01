@@ -30,10 +30,13 @@ authors:
   - Michael Elhadad
   - Noemie Elhadad
 author_notes: []
-publication: In Journal of the American Medical Informatics Association, Volume 27, Issue 10 (JAMIA 2020)
-summary: In Hebrew online health communities, participants commonly write medical terms that appear as
-transliterated forms of a source term in English. Such transliterations introduce high variability in text and challenge text-analytics methods. To reduce their variability, medical terms must be normalized, such as linking
-them to Unified Medical Language System (UMLS) concepts. We present a method to identify both transliterated and translated Hebrew medical terms and link them with UMLS entities.
+publication: In Proceedings of the 2021 Conference of the North American Chapter of the Association for Computational Linguistics (NAACL 2021)
+summary: We present a novel method which leverages rich semantic input
+  representation to automatically generate contrast sets for the visual question
+  answering task. Our method computes the answer of perturbed questions, thus
+  vastly reducing annotation cost and enabling thorough evaluation of models'
+  performance on various semantic aspects (e.g., spatial or relational
+  reasoning)
 url_dataset: ""
 url_project: ""
 publication_short: In *JAMIA 2020*
