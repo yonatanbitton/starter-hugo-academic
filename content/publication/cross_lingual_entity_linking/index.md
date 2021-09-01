@@ -1,22 +1,17 @@
 ---
-abstract: Recent works have shown that supervised models often exploit data
-  artifacts to achieve good test scores while their performance severely
-  degrades on samples outside their training distribution. Contrast sets
-  (Gardneret al., 2020) quantify this phenomenon by perturbing test samples in a
-  minimal way such that the output label is modified. While most contrast sets
-  were created manually, requiring intensive annotation effort, we present a
-  novel method which leverages rich semantic input representation to
-  automatically generate contrast sets for the visual question answering task.
-  Our method computes the answer of perturbed questions, thus vastly reducing
-  annotation cost and enabling thorough evaluation of models' performance on
-  various semantic aspects (e.g., spatial or relational reasoning). We
-  demonstrate the effectiveness of our approach on the GQA dataset and its
-  semantic scene graph image representation. We find that, despite GQA's
-  compositionality and carefully balanced label distribution, two
-  high-performing models drop 13-17% in accuracy compared to the original test
-  set. Finally, we show that our automatic perturbation can be applied to the
-  training set to mitigate the degradation in performance, opening the door to
-  more robust models.
+abstract: **Objective**. In Hebrew online health communities, participants commonly write medical terms that appear as
+transliterated forms of a source term in English. Such transliterations introduce high variability in text and challenge text-analytics methods. To reduce their variability, medical terms must be normalized, such as linking
+them to Unified Medical Language System (UMLS) concepts. We present a method to identify both transliterated and translated Hebrew medical terms and link them with UMLS entities.    
+**Materials and Methods**. We investigate the effect of linking terms in Camoni, a popular Israeli online health
+community in Hebrew. Our method, MDTEL (Medical Deep Transliteration Entity Linking), includes (1) an
+attention-based recurrent neural network encoder-decoder to transliterate words and mapping UMLS from
+English to Hebrew, (2) an unsupervised method for creating a transliteration dataset in any language without
+manually labeled data, and (3) an efficient way to identify and link medical entities in the Hebrew corpus to
+UMLS concepts, by producing a high-recall list of candidate medical terms in the corpus, and then filtering the candidates to relevant medical terms.    
+**Results**. We carry out experiments on 3 disease-specific communities, diabetes, multiple sclerosis, and depression. MDTEL tagging and normalizing on Camoni posts achieved 99% accuracy, 92% recall, and 87% precision. When tagging and normalizing terms in queries from the Camoni search logs, UMLS-normalized queries
+improved search results in 46% of the cases.    
+**Conclusions**. Cross-lingual UMLS entity linking from Hebrew is possible and improves search performance
+across communities. Annotated datasets, annotation guidelines, and code are made available online.
 slides: ""
 url_pdf: ""
 publication_types:
