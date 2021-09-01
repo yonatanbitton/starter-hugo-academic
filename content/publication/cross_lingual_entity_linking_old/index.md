@@ -6,6 +6,7 @@ publication_types:
   - "2"
 authors:
   - admin
+  - Yonatan Bitton
   - Raphael Cohen
   - Tamar Schifter
   - Eitan Bachmat
@@ -17,11 +18,12 @@ summary: In Hebrew online health communities, participants commonly write medica
 url_dataset: ""
 url_project: ""
 publication_short: In *JAMIA 2020*
-url_source: "https://academic.oup.com/jamia/article/27/10/1585/5903800"
+url_source: ""
 url_video: ""
+title: 
 title: Cross lingual Unified Medical Language System entity linking in online health communities
 doi: ""
-featured: false
+featured: true
 tags: []
 projects:
   - cross_lingual_entity_linking
@@ -29,10 +31,10 @@ image:
   caption: ""
   focal_point: ""
   preview_only: false
-  filename: fig1_naal_long.png
-date: 2020-09-10T16:17:07.654Z
+  filename: ""
+date: 2021-03-17T16:17:07.654Z
 url_slides: ""
-publishDate: 2020-09-10T16:17:07.654Z
+publishDate: 2021-09-10T16:17:07.654Z
 url_poster: ""
 url_code: "https://github.com/yonatanbitton/mdtel"
 ---

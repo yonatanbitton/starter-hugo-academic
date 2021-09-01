@@ -23,7 +23,6 @@ publication_types:
   - "1"
 authors:
   - admin
-  - Yonatan Bitton
   - Gabriel Stanovsky
   - Roy Schwartz
   - Michael Elhadad
@@ -45,7 +44,7 @@ doi: ""
 featured: true
 tags: []
 projects:
-  - naacl_contrast_sets
+  - contrast_sets
 image:
   caption: ""
   focal_point: ""
