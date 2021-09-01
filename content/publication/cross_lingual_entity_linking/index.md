@@ -17,43 +17,43 @@ abstract: Recent works have shown that supervised models often exploit data
   set. Finally, we show that our automatic perturbation can be applied to the
   training set to mitigate the degradation in performance, opening the door to
   more robust models.
-slides: naacl_contrast_sets
+slides: ""
 url_pdf: ""
 publication_types:
-  - "1"
+  - "2"
 authors:
   - admin
   - Yonatan Bitton
-  - Gabriel Stanovsky
-  - Roy Schwartz
+  - Raphael Cohen
+  - Tamar Schifter
+  - Eitan Bachmat
   - Michael Elhadad
+  - Noemie Elhadad
 author_notes: []
-publication: In Proceedings of the 2021 Conference of the North American Chapter of the Association for Computational Linguistics (NAACL 2021)
-summary: We present a novel method which leverages rich semantic input
-  representation to automatically generate contrast sets for the visual question
-  answering task. Our method computes the answer of perturbed questions, thus
-  vastly reducing annotation cost and enabling thorough evaluation of models'
-  performance on various semantic aspects (e.g., spatial or relational
-  reasoning)
+publication: In Journal of the American Medical Informatics Association, Volume 27, Issue 10 (JAMIA 2020)
+summary: In Hebrew online health communities, participants commonly write medical terms that appear as
+transliterated forms of a source term in English. Such transliterations introduce high variability in text and challenge text-analytics methods. To reduce their variability, medical terms must be normalized, such as linking
+them to Unified Medical Language System (UMLS) concepts. We present a method to identify both transliterated and translated Hebrew medical terms and link them with UMLS entities.
 url_dataset: ""
 url_project: ""
-publication_short: In *NAACL 2021*
+publication_short: In *JAMIA 2020*
 url_source: ""
 url_video: ""
-title: Automatic Generation of Contrast Sets from Scene Graphs
+title: 
+title: Cross-lingual Unified Medical Language System entity linking in online health communities
 doi: ""
-featured: true
+featured: false
 tags: []
 projects:
-  - naacl_contrast_sets
+  - cross_lingual_entity_linking
 image:
   caption: ""
   focal_point: ""
   preview_only: false
-  filename: fig1_naal_long.png
+  filename: ""
 date: 2021-03-17T16:17:07.654Z
 url_slides: ""
-publishDate: 2021-03-17T16:17:07.654Z
-url_poster: "publication/contrast_sets/contrast_sets_poster.pdf"
-url_code: "https://github.com/yonatanbitton/automatic_generation_of_contrast_sets_from_scene_graphs"
+publishDate: 2021-09-10T16:17:07.654Z
+url_poster: ""
+url_code: "https://github.com/yonatanbitton/mdtel"
 ---
