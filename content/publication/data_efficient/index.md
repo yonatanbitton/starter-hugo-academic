@@ -1,58 +1,36 @@
 ---
-abstract: Recent works have shown that supervised models often exploit data
-  artifacts to achieve good test scores while their performance severely
-  degrades on samples outside their training distribution. Contrast sets
-  (Gardneret al., 2020) quantify this phenomenon by perturbing test samples in a
-  minimal way such that the output label is modified. While most contrast sets
-  were created manually, requiring intensive annotation effort, we present a
-  novel method which leverages rich semantic input representation to
-  automatically generate contrast sets for the visual question answering task.
-  Our method computes the answer of perturbed questions, thus vastly reducing
-  annotation cost and enabling thorough evaluation of models' performance on
-  various semantic aspects (e.g., spatial or relational reasoning). We
-  demonstrate the effectiveness of our approach on the GQA dataset and its
-  semantic scene graph image representation. We find that, despite GQA's
-  compositionality and carefully balanced label distribution, two
-  high-performing models drop 13-17% in accuracy compared to the original test
-  set. Finally, we show that our automatic perturbation can be applied to the
-  training set to mitigate the degradation in performance, opening the door to
-  more robust models.
-slides: naacl_contrast_sets
+abstract: Masked language modeling (MLM) is one of the key sub-tasks in vision-language pretraining. In the cross-modal setting, tokens in the sentence are masked at random, and the model predicts the masked tokens given the image and the text. In this paper, we observe several key disadvantages of MLM in this setting. First, as captions tend to be short, in a third of the sentences no token is sampled. Second, the majority of masked tokens are stop-words and punctuation, leading to under-utilization of the image. We investigate a range of alternative masking strategies specific to the cross-modal setting that address these shortcomings, aiming for better fusion of text and image in the learned representation. When pre-training the LXMERT model, our alternative masking strategies consistently improve over the original masking strategy on three downstream tasks, especially in low resource settings. Further, our pre-training approach substantially outperforms the baseline model on a prompt-based probing task designed to elicit image objects. These results and our analysis indicate that our method allows for better utilization of the training data.
+slides: 
 url_pdf: ""
 publication_types:
   - "1"
 authors:
   - admin
   - Gabriel Stanovsky
-  - Roy Schwartz
   - Michael Elhadad
+  - Roy Schwartz
 author_notes: []
-publication: In Proceedings of the 2021 Conference of the North American Chapter of the Association for Computational Linguistics (NAACL 2021)
-summary: We present a novel method which leverages rich semantic input
-  representation to automatically generate contrast sets for the visual question
-  answering task. Our method computes the answer of perturbed questions, thus
-  vastly reducing annotation cost and enabling thorough evaluation of models'
-  performance on various semantic aspects (e.g., spatial or relational
-  reasoning)
+publication: Findings of the Association for Computational Linguistics: EMNLP 2021
+summary: ""
 url_dataset: ""
 url_project: ""
-publication_short: In *NAACL 2021*
+publication_short: In *Findings of EMNLP 2021*
 url_source: ""
 url_video: ""
-title: Automatic Generation of Contrast Sets from Scene Graphs
+title: Data Efficient Masked Language Modeling for Vision and Language
 doi: ""
 featured: true
 tags: []
 projects:
-  - contrast_sets
+  - data_efficient
 image:
   caption: ""
   focal_point: ""
   preview_only: false
-  filename: fig1_naal_long.png
+  filename: featured.png
 date: 2021-03-17T16:17:07.654Z
 url_slides: ""
-publishDate: 2021-03-17T16:17:07.654Z
-url_poster: "publication/contrast_sets/contrast_sets_poster.pdf"
-url_code: "https://github.com/yonatanbitton/automatic_generation_of_contrast_sets_from_scene_graphs"
+publishDate: 2021-09-05T16:17:07.654Z
+url_poster: ""
+url_code: "https://github.com/yonatanbitton/data_efficient_masked_language_modeling_for_vision_and_language"
 ---
