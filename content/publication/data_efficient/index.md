@@ -1,5 +1,22 @@
 ---
-abstract: Masked language modeling (MLM) is one of the key sub-tasks in vision-language pretraining. In the cross-modal setting, tokens in the sentence are masked at random, and the model predicts the masked tokens given the image and the text. In this paper, we observe several key disadvantages of MLM in this setting. First, as captions tend to be short, in a third of the sentences no token is sampled. Second, the majority of masked tokens are stop-words and punctuation, leading to under-utilization of the image. We investigate a range of alternative masking strategies specific to the cross-modal setting that address these shortcomings, aiming for better fusion of text and image in the learned representation. When pre-training the LXMERT model, our alternative masking strategies consistently improve over the original masking strategy on three downstream tasks, especially in low resource settings. Further, our pre-training approach substantially outperforms the baseline model on a prompt-based probing task designed to elicit image objects. These results and our analysis indicate that our method allows for better utilization of the training data.
+abstract: Recent works have shown that supervised models often exploit data
+  artifacts to achieve good test scores while their performance severely
+  degrades on samples outside their training distribution. Contrast sets
+  (Gardneret al., 2020) quantify this phenomenon by perturbing test samples in a
+  minimal way such that the output label is modified. While most contrast sets
+  were created manually, requiring intensive annotation effort, we present a
+  novel method which leverages rich semantic input representation to
+  automatically generate contrast sets for the visual question answering task.
+  Our method computes the answer of perturbed questions, thus vastly reducing
+  annotation cost and enabling thorough evaluation of models' performance on
+  various semantic aspects (e.g., spatial or relational reasoning). We
+  demonstrate the effectiveness of our approach on the GQA dataset and its
+  semantic scene graph image representation. We find that, despite GQA's
+  compositionality and carefully balanced label distribution, two
+  high-performing models drop 13-17% in accuracy compared to the original test
+  set. Finally, we show that our automatic perturbation can be applied to the
+  training set to mitigate the degradation in performance, opening the door to
+  more robust models.
 slides: naacl_contrast_sets
 url_pdf: ""
 publication_types:
