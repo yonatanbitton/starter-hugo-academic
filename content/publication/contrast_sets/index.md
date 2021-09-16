@@ -38,7 +38,7 @@ url_dataset: ""
 url_project: ""
 publication_short: In *NAACL 2021*
 url_source: ""
-url_video: ""
+url_video: "https://youtu.be/IogU2qbAsm0"
 title: Automatic Generation of Contrast Sets from Scene Graphs
 doi: ""
 featured: true
