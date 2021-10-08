@@ -16,7 +16,7 @@ url_dataset: ""
 url_project: ""
 publication_short: In *Findings of EMNLP 2021*
 url_source: ""
-url_video: ""
+url_video: "https://www.youtube.com/watch?v=A-KOkb5CURA"
 title: Data Efficient Masked Language Modeling for Vision and Language
 doi: ""
 featured: true
@@ -31,6 +31,6 @@ image:
 date: 2021-09-05T16:17:07.654Z
 url_slides: ""
 publishDate: 2021-09-05T16:17:07.654Z
-url_poster: ""
+url_poster: "publication/contrast_sets/contrast_sets_poster.pdf"
 url_code: "https://github.com/yonatanbitton/data_efficient_masked_language_modeling_for_vision_and_language"
 ---
