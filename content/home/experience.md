@@ -34,7 +34,7 @@ experience:
         Working on video classication problems, using state of the art computer vision methods
         
   - title: Research Student
-    company: IBM Cyber Security Center of Excellence
+    company: IBM Research
     company_url: ''
     company_logo: ibm-icon
     location: Israel
