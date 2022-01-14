@@ -1,6 +1,6 @@
 ---
 title: Managing Research
-subtitle: This talk deals with several research related questions. For example findings new research ideas, choose a research topic, staying updated with new research, working with you supervisors, and more. Here are the [slides](https://yonatanbitton.github.io/uploads/managing_research.pdf) from the recent university seminar talk. 
+subtitle: This talk deals with several research related questions. For example findings new research ideas, choose a research topic, staying updated with new research, working with your supervisors, and more. Here are the [slides](https://yonatanbitton.github.io/uploads/managing_research.pdf) from the recent university seminar talk. 
 
 # Summary for listings and search engines
 summary: This talk deals with several research related questions. For example findings new research ideas, choose a research topic, staying updated with new research, working with you supervisors, and more. 
